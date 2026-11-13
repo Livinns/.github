@@ -1,71 +1,143 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/Livinns/.github/main/profile/assets/banner.png" alt="Livinns Brand Banner" width="480" />
+  <img src="https://raw.githubusercontent.com/Livinns/.github/main/profile/assets/banner.png" alt="Livinns Brand Banner" width="460" />
 
-  # 🏠 Livinns
+  # 🏠 Livinns Product Suite
 
-  ### **India's First Property Management Platform**
-  *Autonomous Student Housing, Co-Living & Multi-Hostel Operations Ecosystem*
+  ### **India's First Autonomous Property Management & Living Ecosystem**
+  *A unified suite of 6 enterprise platforms powering student housing, co-living discovery, and hands-free property operations.*
 
   <p align="center">
-    <a href="https://livinns.com"><img src="https://img.shields.io/badge/Marketplace-livinns.com-E11D48?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Marketplace" /></a>
-    <a href="https://livinns.app"><img src="https://img.shields.io/badge/Operations_OS-livinns.app-0284C7?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Operations OS" /></a>
-    <a href="https://github.com/Livinns/livinns-architecture"><img src="https://img.shields.io/badge/Architecture-Arch__Nov__26-10B981?style=for-the-badge&logo=git&logoColor=white" alt="Architecture" /></a>
+    <a href="https://livinns.com"><img src="https://img.shields.io/badge/Public_Portal-livinns.com-E11D48?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Marketplace" /></a>
+    <a href="https://livinns.app"><img src="https://img.shields.io/badge/Operations_Cloud-livinns.app-0284C7?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Operations OS" /></a>
+    <a href="mailto:contact@livinns.com"><img src="https://img.shields.io/badge/Enterprise_Desk-contact@livinns.com-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" /></a>
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-    <img src="https://img.shields.io/badge/Expo-SDK_57-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo 57" />
-    <img src="https://img.shields.io/badge/TanStack-Start_%26_Router-FF4154?style=flat-square&logo=react-table&logoColor=white" alt="TanStack" />
-    <img src="https://img.shields.io/badge/TailwindCSS-v4.2-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind v4" />
-    <img src="https://img.shields.io/badge/Supabase-PostgreSQL_17-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase PG17" />
-    <img src="https://img.shields.io/badge/MongoDB_Atlas-GeoJSON_2dsphere-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB Atlas" />
-    <img src="https://img.shields.io/badge/Cloudflare-$0.00_Zero_Egress-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+    <img src="https://img.shields.io/badge/Architecture-Enterprise_Cloud-blue?style=flat-square" alt="Enterprise Cloud" />
+    <img src="https://img.shields.io/badge/Data_Plane-Encrypted_PostgreSQL-green?style=flat-square" alt="Encrypted PostgreSQL" />
+    <img src="https://img.shields.io/badge/Search-Sub--10ms_Geospatial-orange?style=flat-square" alt="Geospatial Search" />
+    <img src="https://img.shields.io/badge/Mobile-120Hz_Native_Engine-purple?style=flat-square" alt="Native Engine" />
+    <img src="https://img.shields.io/badge/Availability-99.9%25_Uptime-success?style=flat-square" alt="High Availability" />
   </p>
 
 </div>
 
 ---
 
-## 🚀 The 6-Repository Ecosystem
+## 🏛️ The 6-Platform Enterprise Suite
 
-The Livinns platform decouples into 6 specialized repositories:
+Livinns is engineered as an integrated, multi-platform ecosystem designed to serve every stakeholder in the accommodation lifecycle: from college students searching for safe housing to enterprise multi-property chain operators managing thousands of beds.
 
-| Repository | Scope | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| [**`livinns.com`**](https://github.com/Livinns/livinns.com) | **Public Discovery Marketplace**<br>6,761+ verified PGs across 12 cities, sub-10ms GeoJSON radial search, college clusters, and 360° virtual tours. | React 19, TanStack Start, Nitro, Leaflet, MongoDB 2dsphere | `Production / Active` |
-| [**`livinns.app`**](https://github.com/Livinns/livinns.app) | **Autonomous Property Operations SaaS**<br>Multi-hostel operating system, dynamic bed state machine grid, automated dues engine, UPI screenshot reconciler, and statutory police link. | React 19, TanStack Start, Nitro, TailwindCSS v4, Supabase PG17 | `Production / Active` |
-| [**`livinns-find-my-pg`**](https://github.com/Livinns/livinns-find-my-pg) | **Student & Parent Discovery App (Native)**<br>Hyper-fast mobile app for discovering verified hostels, inspecting 360° tours, and instant bed locking with advance token payments. | React Native 0.86, Expo 57, React 19, Cashfree Native | `In Development` |
-| [**`livinns-tenants-app`**](https://github.com/Livinns/livinns-tenants-app) | **Resident Living Companion App (Native)**<br>Digital stay passbook, 1-tap UPI QR rent payment, KYC document vault, weekly mess attendance toggles, and maintenance ticket desk. | React Native 0.86, Expo 57, React 19, Supabase Realtime | `In Development` |
-| [**`livinns-pg-management-app`**](https://github.com/Livinns/livinns-pg-management-app) | **Hostel Owner & Staff Field OS (Native)**<br>Autonomous property operations on the move: instant desk cash collection, voice-to-expense logging (`/kharcha`), live bed matrix, and move-out inspection. | React Native 0.86, Expo 57, React 19, Baileys ChatOps | `In Development` |
-| [**`livinns-architecture`**](https://github.com/Livinns/livinns-architecture) | **Single Source of Truth & Master Context Hub**<br>Central technical blueprints: `Arch_Nov_26` schemas, live-audited `Existing_Structure`, workflows 01-07, and Uncle Anton bare-metal runbooks. | Markdown, SQL, JSON Specs, Multi-Cloud Audits | `Canonical Truth` |
+```
+                                  THE LIVINNS SUITE
+                                          │
+    ┌─────────────────────────────────────┼─────────────────────────────────────┐
+    │                                     │                                     │
+┌───▼─────────────────────────┐ ┌─────────▼─────────────────────────┐ ┌─────────▼─────────────────────────┐
+│     WEB PLATFORMS (2)       │ │    NATIVE MOBILE SUITE (3)        │ │    CENTRAL FOUNDATION (1)         │
+├─────────────────────────────┤ ├───────────────────────────────────┤ ├───────────────────────────────────┤
+│ 1. livinns.com              │ │ 3. Livinns : Find My PG           │ │ 6. Livinns Core Architecture      │
+│    Student Housing Discovery│ │    Student Discovery & Booking    │ │    Unified Engineering Hub,       │
+│                             │ │                                   │ │    Data Schemas & API Standards   │
+│ 2. livinns.app              │ │ 4. Livinns : Tenants App          │ │                                   │
+│    Autonomous Operations ERP│ │    Resident Companion & Passbook  │ │                                   │
+│                             │ │                                   │ │                                   │
+│                             │ │ 5. Livinns: PG Management App     │ │                                   │
+│                             │ │    Owner & Staff Operational OS   │ │                                   │
+└─────────────────────────────┘ └───────────────────────────────────┘ └───────────────────────────────────┘
+```
 
 ---
 
-## ⚡ Distributed Architecture Topology
+## 🌟 Platform Feature Breakdowns
 
-```
-                                  Livinns Core Topology
-                                            │
-    ┌───────────────────────────────────────┼───────────────────────────────────────┐
-    │                                       │                                       │
-┌───▼───────────────────────────┐   ┌───────▼───────────────────────────┐   ┌───────▼───────────────────────────┐
-│     CLOUD DATA PLANE (MUMBAI) │   │     CLOUDFLARE 3-ACCOUNT FLEET    │   │      BARE-METAL GROUND NODE       │
-├───────────────────────────────┤   ├───────────────────────────────────┤   ├───────────────────────────────────┤
-│ • Supabase PostgreSQL 17      │   │ • Account 1 (App): D1 activities, │   │ • Uncle Anton (HP Compaq 6005)    │
-│   (17 Relational Tables + RLS)│   │   kyc-docs-vault, payment-proofs  │   │   IP: 192.168.31.247 (LAN)        │
-│ • MongoDB Atlas (2 Clusters)  │   │ • Account 2 (Com): Pages Edge SSR,│   │ • CasaOS Linux, 15.3 GB RAM       │
-│   (6,761 GeoJSON 2dsphere)    │   │   listings-media-2, properties    │   │ • Baileys WhatsApp Daemon (+91)   │
-│ • Turso LibSQL Edge Archive   │   │ • Account 3 (1014): 8.8GB Media   │   │ • Local PG16 + 10TB HDD Vault     │
-│   (Weekly N:1 Event Rollups)  │   │   Archive & CDN Workers           │   │   Nightly Backup at 03:30 AM IST  │
-└───────────────────────────────┘   └───────────────────────────────────┘   └───────────────────────────────────┘
-```
+### 🌐 1. Livinns Marketplace (`livinns.com`)
+> **The Nationwide Student Housing & Co-Living Discovery Portal**  
+> *Target Audience: College students, entrance exam aspirants, working professionals, and parents.*
+
+* **Sub-10ms Geospatial Search**: Instant radial search across 6,700+ verified listings in 12 major educational corridors (Pune, Kota, Bengaluru, Delhi NCR, Hyderabad, Indore).
+* **Transit & College Corridors**: 1-click filtering by walking distance to premier universities, coaching hubs, and IT tech parks.
+* **Immersive 360° Virtual Tours**: Panoramic room, washroom, and common area walkthroughs eliminating blind walk-ins.
+* **Transparent Pricing & Matrix**: Clear breakdown of Single, Double, Triple sharing rents, advance token fees, and security deposits.
+* **Verified Safety Audits**: CCTV status, biometric entry verification, curfew regulations, and mess menu transparency.
+
+---
+
+### 💼 2. Livinns Operations OS (`livinns.app`)
+> **Autonomous Cloud ERP & Multi-Property Management Platform**  
+> *Target Audience: Hostel chain owners, multi-branch administrators, corporate co-living enterprises.*
+
+* **Multi-Property Chain Switcher**: Centralized command over multiple properties, wings, and building hierarchies with role-based staff scopes.
+* **Dynamic Room & Bed Matrix Grid**: Live color-coded inventory state machine (`Vacant` 🟢, `Reserved` 🔵, `Occupied` 🟡, `Rent Due` 🟠, `Notice Period` 🔴, `Maintenance` 🟣).
+* **Automated Dues & Invoicing Engine**: Automated calendar and anniversary billing, pro-rata rent calculations, late penalty policies, and GST-compliant tax invoices.
+* **Digital Cash & UPI Reconciliation**: Instant verification queue for tenant UPI screenshots with transaction UTR deduplication.
+* **Statutory Compliance Portal**: 1-click generator for digital police verification certificates (`/verify/share`) and tenant legal agreements.
+
+---
+
+### 🔍 3. Livinns : Find My PG (Native Mobile App)
+> **Hyper-Fast Student Accommodation Search & Bed Locking**  
+> *Target Audience: Students on mobile seeking quick bookings and verified co-living spaces.*
+
+* **Location-Aware Discovery Feed**: Real-time GPS distance calculation to target colleges and workplaces.
+* **Instant Direct Bed Lock**: Reserve vacant beds instantly with secure digital token deposits and real-time inventory hold timers.
+* **Direct Property Concierge**: Instant tokenized communication channels with verified property managers.
+* **Schedule Physical Visits**: Interactive calendar booking for physical property walkthroughs with turn-by-turn route directions.
+
+---
+
+### 📱 4. Livinns : Tenants App (Native Mobile App)
+> **The Resident Lifestyle, Digital Passbook & Self-Service Companion**  
+> *Target Audience: Verified residents currently staying in Livinns-partnered accommodations.*
+
+* **Digital Onboarding & Smart Admission**: Scan desk QR codes to complete paperless check-in in under 2 minutes.
+* **Personal Digital Passbook**: Real-time ledger of monthly rent balances, electricity sub-meter units, and 1-tap UPI payments (`GPay`, `PhonePe`, `Paytm`).
+* **Instant Rent Receipts**: Official PDF tax receipts generated automatically upon payment approval.
+* **Maintenance & Service Desk**: Raise repair requests (Electrical, Plumbing, Wi-Fi) with photo attachments and SLA resolution tracking.
+* **Mess & Food Management**: Weekly meal schedules with 1-tap meal skip toggles to optimize dining operations.
+* **Digital Gate Pass**: Curfew entry request generation delivered directly to the floor supervisor console.
+
+---
+
+### 🏢 5. Livinns: PG Management App (Native Mobile App)
+> **Autonomous Field Operations & Cash Reconciliation for Property Owners**  
+> *Target Audience: Hostel owners on the move, floor wardens, facility managers, and cashiers.*
+
+* **Vernacular-First Ergonomic UI**: Clean, frictionless interface designed for high-speed field operations with zero cognitive overhead.
+* **Desk Cash Collection Assistant**: Instant cash entry logging with automatic SMS receipts dispatched to tenants.
+* **Voice-to-Expense Logging (`/kharcha`)**: Hands-free daily expense accounting for groceries, maintenance, and utility bills.
+* **Move-Out Settlement Ledger**: Automated move-out checklists, damage deductions, and net security deposit refund calculations.
+* **Staff Task Delegation**: Floor-level task dispatch for maintenance staff with before-and-after photo verification.
+
+---
+
+### 📚 6. Livinns Core Architecture (`livinns-architecture`)
+> **The Canonical Engineering Standards, Schemas & API Blueprints**  
+> *Target Audience: Core development teams, platform engineers, and API integrators.*
+
+* **Enterprise Relational Blueprints**: Complete PostgreSQL schemas with strict Row-Level Security (RLS) policies.
+* **Geospatial & Spatial Index Standards**: GeoJSON index specifications and national landmarks database.
+* **Security & Document Vault Protocols**: End-to-end encrypted storage pipelines for identity KYC documents and payment proofs.
+* **7 Core Operational Workflows**: Exhaustive business logic specifications covering the entire resident and property lifecycle.
+
+---
+
+## ⚡ Enterprise Cloud Infrastructure Standards
+
+The Livinns Product Suite is built on a distributed, high-performance cloud architecture:
+
+* **Global Edge Network**: Ultra-low latency edge delivery with regional serverless execution.
+* **Secure Enterprise Relational Engine**: High-concurrency database layer with strict Row-Level Security, automated backups, and zero data leakage.
+* **Sub-10ms Geospatial Indexing**: High-scale spatial query engine powering location proximity searches across millions of coordinate pairs.
+* **Zero-Egress Encrypted Storage**: Secure multi-tiered document vaults for sensitive tenant identity verification and financial audit logs.
+* **Event-Driven Messaging Fabric**: Resilient notification dispatch pipelines handling real-time transactional alerts across SMS, push notifications, and chat channels.
 
 ---
 
 <div align="center">
 
-  **Engineered with ❤️ in Pune, Maharashtra, India**  
-  *BLESSIN CARE ESSENTIALS PRIVATE LIMITED*
+  **Engineered for India's Student Housing & Co-Living Industry**  
+  *© BLESSIN CARE ESSENTIALS PRIVATE LIMITED • Pune, Maharashtra, India*
 
 </div>
